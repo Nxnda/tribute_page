@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color:white;
+  padding: 20px 10px;
+
+}
+.footer {
+  background-color:#10559b;
+  height:10px;
+}
+
+.footer1{
+  background-color:#10559b;
+  width=100%;
+  text-align:center;
+height:350px;
+ color:white;
+padding:50px;
+}
+
+
+.header a {
+  float:left;
+  color:black;
+  text-align:center;
+  padding:13px;
+  text-decoration: none;
+  font-size:20px; 
+  line-height:19px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size:35px;
+  font-weight: bold;
+  padding:5px;
+  background-color:white;
+  color:#10559b;
+}
+
+.header a:hover {
+  background-color:white;
+  color:#10559b;
+}
+
+.header a.active {
+  background-color:;
+  color:#10559b;
+}
+
+.header-right {
+  float: right;{
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+
+
+
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <a href="#default" class="logo">MOTHER TERESA</a>
+  <div class="header-right">
+<a href="wweb.html">HOME</a>
+<a href="#C1">ABOUT</a>
+	<a href="C:\Users\User\Desktop\teresa\login.html">LOGIN</a>
+	<a href="#C4">CONTACT</a>
+</div>
+</div>
+</div><style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="8.jpg" style="max-width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="o.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://i.guim.co.uk/img/media/fedbba6cac913bba8104f2945f3c35d167b93d7e/0_146_3508_2105/master/3508.jpg?width=700&quality=85&auto=format&fit=max&s=6c785d7b7fcc4490fa6f4eb0a11586d4" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); 
+}
+</script>
+
+<h2 style="text-align:center; color:#10559b; id="C1";>MOTHER TERESA-AN INSPIRATION TO ALL</h2><div class="row"><style>
+<style>
+* {
+  box-sizing: border-box;
+}
+.column{
+  float:left;
+  margin-left:45px;
+  width:30%;
+  padding:30px;
+  height: 300px; 
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/
+@media screen and (max-width: 600px) {
+  .column {
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<h4 id="C1";>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://cdn.pixabay.com/photo/2018/03/14/18/47/mother-teresa-3226014_960_720.png" width=80%";>
+	<p style="text-align:center;">
+<a href="C:\Users\User\Desktop\Mother Teresa\a_files\biography.html">BIOGRAPHY</a></p>
+    </div>
+
+  </div><div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://smallimg.pngkey.com/png/small/17-172108_india-map-outline-png-image-free-stock-india.png" width=50%";>
+	<p><a href="C:\Users\User\Desktop\teresa\inindia.html">IN INDIA</a></p>
+    </div>
+  </div>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://m.media-amazon.com/images/I/51+petmghqL._SL1500_.jpg" width=65%";>
+	<p><a href="C:\Users\User\Desktop\teresa\timeline.html"">TIMELINE</a></p>
+    </div>
+  </div>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm48W2uh8Y22nELSuNaENB-bqb-dUaUgF2C0zPPnnnPEVubi3Ka_vzP2-K-s9rou1_-pk&usqp=CAU" width=65%">
+	<p><a href="C:\Users\User\Desktop\teresa\awards.html">AWARDS</a></p>
+</div>
+</div>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgQl-Z0OSY6OadMZYGY2Cqn4gRJHaG6wRjaNpzVBAvvY8-wjBRLfRl1eDg-lijHnjTRwc&usqp=CAU" width=50%">
+<p><a href="C:\Users\User\Desktop\teresa\quotes.html">QUOTES</a></p>
+</div>
+</div>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlDce_Sb5oID7mY97laq_iDmQSYEiA8UqoLAmzsxq_k9weaXXXg1g5RCocht-vw-0caps&usqp=CAU" width=60%">
+	<p><a href="C:\Users\User\Desktop\Mother Teresa\a_files\gallery.html">GALLERY</a></p>
+</div>
+</div>  
+</div>
+
+<style>
+* {
+  box-sizing: border-box;
+
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  margin:auto;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 19px;
+  background-color:white;
+ margin:auto;
+  padding:10px;
+  width:65%;
+}
+
+.col-25 {
+  float: left;
+  width: 15%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width:65%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<br><br><br><br><h3 style="text-align:center; color:blue; ; ">CONTACT US</h3>
+<h4 id="C4";>
+
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="AUSTRALIA">Australia</option>
+          <option value="CANADA">CANADA</option>
+          <option value="usa">USA</option>
+		<option value="india">INDIA</option>
+		<option value="srilanka">SRILANKA</option>
+		<option value="china">CHINA</option>
+		<option value="germany">GERMANY</option>
+		
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+</div>
+<br>
+<br>
+<div class="footer">
+</div>
+</div>
+<br>
+<div class="footer">
+</div>
+</div>
+
+<div class="footer1">
+<p>mother teresa.@all right reserved.</p>
+</foote>
+</div>
+
+
+
+</body>
+</html>
+
+  
+
